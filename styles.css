@@ -1,0 +1,94 @@
+body {
+  font-family: 'Arial', sans-serif;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+  background-color: #f4f4f9;
+}
+
+.container {
+  width: 80%;
+  max-width: 900px;
+  margin: 2rem auto;
+  background: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+header h1 {
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+header .contact {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+header .contact a {
+  color: #3479bd;
+  text-decoration: none;
+}
+
+header .contact a:hover {
+  text-decoration: underline;
+}
+
+section h2 {
+  border-bottom: 2px solid #000000;
+  padding-bottom: 0.3rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+ul {
+  list-style-type: disc;
+  margin-left: 1.5rem;
+}
+
+.skills-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  text-align: center;
+  padding: 0;
+  list-style: none;
+}
+
+.skills-container li {
+  background-color: #f0f8ff;
+  border: 1px solid #0073e6;
+  border-radius: 5px;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.job, .education-item, .award {
+  margin-bottom: 1.5rem;
+}
+
+.job h3, .education-item h3, .award h3 {
+  color: #000000;
+  margin-bottom: 0.3rem;
+}
+
+.job .company, .education-item .institution, .award .details {
+  font-size: 0.9rem;
+  color: #555;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
