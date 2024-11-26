@@ -279,3 +279,48 @@ section h2 {
   color: #c9d1d9;
   margin-top: 15px;
 }
+
+/* Key Competencies Section */
+.key-competencies h2 {
+  color: #2d89ef;
+  font-size: 1.6em;
+  letter-spacing: 1px;
+  border-bottom: 2px solid #2d89ef;
+  padding-bottom: 5px;
+  margin-bottom: 20px;
+  text-align: left; /* Left-align the title */
+}
+
+.key-competencies ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center the items */
+  gap: 20px;
+}
+
+.key-competencies ul li {
+  font-size: 1.2em;
+  color: #c9d1d9;
+  background-color: rgba(45, 137, 239, 0.2);
+  border-radius: 15px;
+  padding: 10px 20px;
+  transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+  text-align: center; /* Center the text within each competency item */
+  min-width: 150px; /* Ensure each competency item has a minimum width */
+}
+
+/* Glowing effect only on hover */
+.key-competencies ul li:hover {
+  background-color: #2d89ef;
+  color: #fff;
+  transform: scale(1.05);
+  box-shadow: 0 0 8px #2d89ef, 0 0 15px #2d89ef; /* Reduced glowing effect on hover */
+}
+
+.key-competencies ul li::before {
+  content: none; /* Remove bullet points */
+}
+
