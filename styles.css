@@ -199,4 +199,33 @@ body {
       text-decoration: none;
     }
   }
+
+ /* License & Certifications Section */
+.certifications ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
   
+  .certifications ul li {
+    font-size: 0.9em;
+    background: #1b1f24; /* Darker background to separate from main container */
+    padding: 10px 15px;
+    margin-bottom: 8px;
+    border-radius: 8px;
+    color: #c9d1d9; /* Light text */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+  
+  .certifications ul li:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 4px 8px rgba(45, 137, 239, 0.3);
+  }
+  
+  .certifications h2 {
+    border-left: 4px solid #58a6ff;
+    padding-left: 10px;
+    color: #58a6ff; /* Highlighted header */
+    margin-bottom: 10px;
+  }
